@@ -8,7 +8,7 @@
 
 
 
-[![GitHub CI](https://github.com/metwork-framework/mfdata_python2_tests/workflows/CI/badge.svg?branch=master)](https://github.com/metwork-framework/mfdata_python2_tests/actions?query=workflow%3ACI&branch=master)
+[![Drone CI](http://metwork-framework.org:8000/api/badges/metwork-framework/mfdata_python2_tests/status.svg)](http://metwork-framework.org:8000/metwork-framework/mfdata_python2_tests)
 [![Maintenance](https://github.com/metwork-framework/resources/blob/master/badges/maintained.svg)]()
 [![Gitter](https://github.com/metwork-framework/resources/blob/master/badges/community-en.svg)](https://gitter.im/metwork-framework/community-en?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Gitter](https://github.com/metwork-framework/resources/blob/master/badges/community-fr.svg)](https://gitter.im/metwork-framework/community-fr?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
