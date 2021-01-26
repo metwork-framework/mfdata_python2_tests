@@ -60,9 +60,15 @@ pipeline:
 
       event: [push, pull_request]
 
-      branch: [  master, release_*, experimental* ]
+      branch: [  master, release_* ]
 
- 
+  repository_dispatch_test:
+    image: metwork/drone-repository-dispatch-specific-image:latest
+    repositories:
+      - test_triggered_with_githubactions@test 
+    secrets: [ downstream_github_token ]
+    when:
+      branch: experimental
 
 matrix:
   OS_VERSION:
